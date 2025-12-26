@@ -7,7 +7,7 @@
 html, body {
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, "Montserrat";
-    background-color: #111;
+    background-color: #0c0c0c;
 }
 
 .nav{
@@ -19,7 +19,7 @@ html, body {
 }
 
 .nav1{
-    margin-left: 45px;
+    margin-left: 70px;
     margin-top: 20px;
     font-family: "Montserrat";
     color: white;
@@ -64,7 +64,85 @@ html, body {
     display: none;
 }
 
+main{
+    padding-top: 50px;
+}
 
+.section1{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px 70px;;
+    font-family: "Helvetica Neue";
+}
+
+.section1 .left{
+    max-width: 45%;
+}
+
+.section1 .left h1{
+    color: white;
+    font-size: 2.75em;
+    line-height: 1.05em;
+    font-weight: 450;
+    letter-spacing: -0.015em;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.section1 .left .tags{
+    display: flex;
+    gap: 5px 5px;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+
+.section1 .left .tags h4{
+        background-color: #212121;
+        border-radius: 5px;
+        color:white;
+        font-weight: 500;
+        padding: 10px 15px;
+        font-size: 1em;
+        flex-shrink: 0;
+}
+
+.section1 .left .price {
+    color: white;
+    font-size: 35px;
+    font-family: "Helvetica Neue";
+}
+
+.section1 .left .price .crp {
+    color: #02e797;
+    font-size: 35px;
+    font-family: "Outfit";
+}
+
+.section1 .left .price .ogp {
+    color: #cfcfcf;
+    font-size: 26px;
+    font-weight: 500;
+    opacity: 0.7;
+    font-family: "Outfit";
+    text-decoration: line-through;
+}
+
+.section1 .left .price #gst {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.section1 .left #Scratch{
+    color:#cfcfcf;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
 
 
 @media(max-width: 768px){
@@ -93,11 +171,12 @@ html, body {
 
     .nav3{
         margin-top: 20px;
+        padding-top: 10px;
         display: flex;
         align-items: center;
         color: white;
         font-size: 30px;
-        margin-right: 25px;
+        margin-right: 22px;
         cursor: pointer;
         justify-content: center;
     }
